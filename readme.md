@@ -1,9 +1,6 @@
 # dethai-tutorials-practice
-
 练习使用OAK相机
-
 # 使用说明
-
 ## 1.文档简介
 
 练习使用OAK深度相机，参考官方的[demo文档](docs.oakchina.cn/projects/api)。  
