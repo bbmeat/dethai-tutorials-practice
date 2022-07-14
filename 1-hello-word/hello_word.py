@@ -6,6 +6,7 @@ import depthai
 import blobconverter
 
 pipeline = depthai.Pipeline()  # 定义新对象
+
 cam_rgb = pipeline.create(depthai.node.ColorCamera)  # 设置调整相机参数
 cam_rgb.setPreviewSize(300, 300)  # 调整输入图像大小
 cam_rgb.setInterleaved(False)
@@ -52,7 +53,7 @@ with depthai.Device(pipeline) as device:  # 添加助手
 
         # 相机结果或神经网络结果为 一维数组 提供，需要对其进行转换， frameNorm函数为转换函数
         if in_rgb is not None:
-            frame = in_rgb.getCvFrame  # 从相机接受帧
+            frame = in_rgb.getCvFrame()  # 从相机接受帧
 
         if in_nn is not None:
             detections = in_nn.detections  # 神经网络结果
