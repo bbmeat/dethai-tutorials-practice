@@ -6,3 +6,6 @@
 # IntelliJ project files
 !/dethai-tutorials-prictice
 
+!/depthai-python/
+!/Lib/
+!/Scripts/
