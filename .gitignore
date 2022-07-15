@@ -4,8 +4,9 @@
 ### Example user template
 
 # IntelliJ project files
-!/dethai-tutorials-prictice
 
-!/depthai-python/
 !/Lib/
 !/Scripts/
+
+
+depthai-python/
