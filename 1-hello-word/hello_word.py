@@ -62,7 +62,7 @@ with depthai.Device(pipeline) as device:  # 添加助手
         # 显示结果
         if frame is not None:
             for detection in detections:
-                bbox = frameNorm(frame, (detection.xmin, detection.ymin, detection.xmax, detection.ymax))
+                bbox = frameNorm(frame, (detection.xmin, detection.ymin, detection.xmax, dqetection.ymax))
                 # 用frameNorm之前定义的边界框坐标归一化
                 cv2.rectangle(frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (255, 0, 0), 2)
                 # 使用cv2.rectangle绘制矩形作为指示符
