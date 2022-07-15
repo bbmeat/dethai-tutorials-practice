@@ -9,4 +9,7 @@
 !/Scripts/
 
 
-depthai-python/
+
+/depthai-python/
+!/2-practice-demo/depthai_calib_backup.json
+!/2-practice-demo/
