@@ -5,14 +5,12 @@
 
 # IntelliJ project files
 
-!/Lib/*
-!/Scripts/*
+!/Lib
+!/Scripts
 
-!/2-practice-demo/*
+!/2-practice-demo
 
-!/models/*
+!/models
 
-
-!/models/dataset/*
-!/3-gen2-demo/*
-!/1-hello-word/*
+!/1-hello-word
+!/3-gen2-demo
